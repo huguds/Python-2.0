@@ -1,4 +1,4 @@
-# Programador: Victor Hugo | algoritmo: introdução á váriaveis e operadores | data: 13/07/2021
+# Programador: Victor Hugo | algoritmo: introdução á variáveis e operadores | data: 13/07/2021
 
 #váriaveis
 s = 'Asdrubal'; #String = conjunto de caracteres 
