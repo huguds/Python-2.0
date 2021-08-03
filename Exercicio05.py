@@ -36,7 +36,7 @@ elif(opc == 3):
         print('Sem estoque !')
 elif(opc == 4):
     print('\n')
-    print('Oakley')
+    print('Puma')
     if(EstoqPuma == True):
         print('Estoque !')
     else:
@@ -46,4 +46,4 @@ elif(opc == 4):
 x = 0
 print(5*"=","Exemplo 3",5*"=")
 print("Par" if x % 2 == 0 else "Impar") # É possivel utilizar uma expressão condicional no python
-print(x % 2 == 0 and "Par" or "Impar") # O mesmo é utilizado para o boolean
+print(x % 2 == 0 and "Par" or "Impar") # O mesmo é utilizado para o boolean 
