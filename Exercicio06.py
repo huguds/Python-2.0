@@ -3,13 +3,13 @@
 # Sendo utilizado para percorrer listas, dicionários e strings
 # 1 - Faça um algoritmo que conte de 0 até 10
 print(5*"=","Exemplo 1",5*"=")
-x = 1; i = 0; soma_dos_numeros = 0; z = 0;
+num = 0; x = 1; i = 0; soma_dos_numeros = 0; z = 0; maiorNome = 0;
 for x in range(10):
     print(x, end=" ")  # end é utilizado para imprimir os valores na mesma linha
 print('\n')
 # 2 - Faça um algoritmo que mostre todos os nomes de um lista
 print(5*"=","Exemplo 2",5*"=")
-nomes = ['Asdrubal','Emengarda','Vladilson']
+nomes = ['Asdrubal','Welisson','Emengarda','Vladilson']
 for x in nomes:
     print(x)
 print('\n')
@@ -35,4 +35,10 @@ for x in numeros:
     soma_dos_numeros += x
 print(f'A soma dos números é de: {soma_dos_numeros}')
 print(f'A média dos números é de: {soma_dos_numeros/z}')
+print('\n')
+# 6 - Crie um algoritmo que enumere a quantidade de números
+print(5*"=","Exemplo 6",5*"=")
+for num, x in enumerate(numeros):
+    num+=1
+    print (f"{num} : {x}")
 print('\n')
